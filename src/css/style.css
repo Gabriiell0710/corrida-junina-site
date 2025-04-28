@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+    background-color: rgb(10, 3, 114);
+    height: 50px
+}
+.cabecalho a{
+    color: white;
+    font-size: 27px;
+}
+
+.img-container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+img{
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.containe-text-jogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.descricao_jogo{
+    line-height: 22px;
+}
